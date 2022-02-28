@@ -33,51 +33,6 @@ require('includes/navbar.php');
 	</section>
 	<!-- End About Us -->
 	
-	<!-- Start Team -->
-	<section id="team" class="team section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="section-title">
-						<h2>Behind Neighbour Care</h2>
-						<p>Meet Mrs. Doris Asiedu-Mantey, the owner of Neighbour Care. </p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Team -->
-				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-team">
-						<!-- Image -->
-						<div class="image">
-							<img src="https://via.placeholder.com/370x370" alt="#">
-						</div>
-						<!-- End Image -->
-						<div class="info-head">
-							<!-- Info Box -->
-							<div class="info-box">
-								<h4 class="name">Doris</h4>
-								<span class="des">Owner & CEO</span>
-							</div>
-							<!-- End Info Box -->
-							<!-- Social -->
-							<div class="social-links">
-								<ul class="social">
-									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>	
-				<!-- End Single Team -->
-			</div>	
-		</div>
-	</section>
-	<!--/ End Team Area -->
 	
 	<!-- Start Shop Services Area -->
 	<section class="shop-services section">
