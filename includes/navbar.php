@@ -116,7 +116,7 @@
 												<li><a href="fabrics.php">Fabrics</a></li>												
 												<!-- <li><a href="perfumes.php">Perfumes</a></li> -->
 												<li><a href="cosmetics.php">Cosmetics<span class="new">New</span></a></li>
-												<li><a href="specialOrder.php">Special Order</a></li>
+												<li><a href="specialOrder.php">Make a Special Order</a></li>
 											</ul>
 									</div>
 									</div>

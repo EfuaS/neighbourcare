@@ -24,7 +24,7 @@
 							<ul>
 								<li><a href="./about-us.php">About Us</a></li>
 								<li><a href="./terms_conditions.php">Terms & Conditions</a></li>
-								<li><a href="./review.php">Custom Order</a></li>
+								<li><a href="./specialOrder.php">Make a Special Order</a></li>
 							</ul>
 						</div>
 						<!-- End Single Widget -->

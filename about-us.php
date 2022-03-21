@@ -13,10 +13,13 @@ require('includes/navbar.php');
 					<div class="col-lg-6 col-12">
 						<div class="about-content">
 							<h3>Welcome To <span>Neighbour Care</span></h3>
-							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde sunt in culpa qui officia deserunt mollit anim id est laborum.  sed ut perspiciatis unde omnis iste natus error sit voluptatem Excepteu </p>
-							<p>sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspi deserunt mollit anim id est laborum. sed ut perspi.</p>
+							<p>	We are the leading Cosmetics Store in Accra since 2016. We are here to offer you a wide spectrum of products and services, personlized
+								to suit your specific needs. Stop by our shop and check us out by clicking that contact us button. Our team is here to help
+							you feel and look amazing.	</p> 
+
+							<h5> You are our Pride and Priority! </h5>
 							<div class="button">
-								<a href="contact.html" class="btn primary">Contact Us</a>
+								<a href="#" class="btn primary">Contact Us</a>
 							</div>
 						</div>
 					</div>
@@ -78,7 +81,8 @@ require('includes/navbar.php');
 		</div>
 	</section>
 	<!-- End Shop Services Area -->
-	
+	<br>
+	<br>
 
 <?php
 require('includes/scripts.php');
