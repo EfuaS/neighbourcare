@@ -39,7 +39,7 @@ $total = 0;
 
 								<td class="image" data-title="No"><img src="images/products/<?php echo $cartItem["product_image"]; ?>" alt="#"></td>
 								<td class="product-des" data-title="Description">
-									<p class="product-name"><a href="#"><?php echo $cartItem["product_name"]; ?></a></p>
+									<p class="product-name"><a href="single_product.php?pid=<?php echo $cartItem["product_id"]; ?>"><?php echo $cartItem["product_name"]; ?></a></p>
 									<p class="product-des"><?php echo $cartItem['product_desc'];  ?></p>
 								</td>
 								<td class="price" id="productPrice" data-title="Price"><span>GHS <?php echo $cartItem["product_price"]; ?></span></td>
@@ -49,7 +49,7 @@ $total = 0;
 									</div>
 									<!--/ End Input Order -->
 								</td>
-								<td class="total-amount" id='total' data-title="Total"><span> <?php print_r(number_format($cartItem["product_price"] * $cartItem["qty"])); ?></span></td>
+								<td class="total-amount" id='total' data-title="Total"><span> <?php print_r(($cartItem["product_price"] * $cartItem["qty"])); ?></span></td>
 
 								<td class="action" data-title="Remove" ><a href="actions/mng_cart.php?cartremoveid=<?php echo $cartItem["product_id"]; ?>"><i class="ti-trash remove-icon"></i></a></td>
 
@@ -89,9 +89,9 @@ $total = $total + $cartItem["product_price"] * $cartItem["qty"];
 								<div class="right">
 									<ul>
 										<!-- Calculate  and display cart total -->
-										<li>Cart Subtotal<span>GHS <?php print_r(number_format($total,2));?></span></li>
+										<li>Cart Subtotal<span>GHS <?php print_r($total);?></span></li>
 										<li>Shipping<span>Free</span></li>
-										<li class="last">You Pay<span>GHS <?php print_r(number_format($total,2));?></span></li>
+										<li class="last">You Pay<span>GHS <?php print_r($total);?></span></li>
 									</ul>
 									<div class="button5">
 										<a href="checkout.php?total=<?php echo $total; ?>" class="btn">Checkout</a>
