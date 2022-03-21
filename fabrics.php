@@ -177,8 +177,8 @@ $all_fabrics = getAllFabricsController();
 								<div class="single-product">
 									<div class="product-img">
 										<a href="single_product.php?pid=<?php echo $fabric["product_id"]; ?>">
-											<img class="default-img" src="images/fabrics/<?php echo $fabric["product_image"]; ?>" alt="#">
-											<img class="hover-img" src="images/fabrics/<?php echo $fabric["product_image"]; ?>" alt="#">
+											<img class="default-img" src="images/products/<?php echo $fabric["product_image"]; ?>" alt="#">
+											<img class="hover-img" src="images/products/<?php echo $fabric["product_image"]; ?>" alt="#">
 										</a>
 										<div class="button-head">
 											<div class="product-action-2">

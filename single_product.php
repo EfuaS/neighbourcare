@@ -172,25 +172,26 @@ $product_name = null;
 																	<div class="row">
 																		<div class="col-lg-6 col-12">
 																			<div class="form-group">
-																				<label>Your Name (optional)</label>
-																				<input name="name" type="text" placeholder="">
+																				<label>Your Name </label>
+																				<input name="reveiwer" type="text" required>
 																			</div>
 																		</div>
 																		<div class="col-lg-6 col-12">
 																			<div class="form-group">
 																				<label>Product Name<span>*</span></label>
-																				<input name="product_name" type="text" value="<?php echo $product_record["product_name"]; ?>" readonly>
+																				<input name="rev_product" type="text" value="<?php echo $product_record["product_name"]; ?>" readonly>
 																			</div>
 																		</div>
 																		<div class="col-lg-6 col-12">
 																			<div class="form-group">
-																				<label>Your Email (optional)</label>
-																				<input name="email" type="email" placeholder="">
+																				<label>Your Email *</label>
+																				<input name="rev_email" type="email" required>
+																				<input name="pro_id" type="hidden" value="<?php echo $product_record["product_id"]  ?>" >
 																			</div>	
 																		</div>
 																		<div class="col-lg-6 col-12">
 																			<div class="form-group">
-																				<select  name="rating">
+																				<select  name="rev_rating">
 																					<option value="1">1 Star</option>
 																					<option value="2">2 Stars</option>
 																					<option value="3">3 Stars</option>
@@ -202,7 +203,7 @@ $product_name = null;
 																		<div class="col-12">
 																			<div class="form-group message">
 																				<label>Your Review<span>*</span></label>
-																				<textarea name="message" placeholder="" required></textarea>
+																				<textarea name="rev_message" placeholder="" required></textarea>
 																			</div>
 																		</div>
 																		<div class="col-12">

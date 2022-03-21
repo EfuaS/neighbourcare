@@ -32,6 +32,7 @@ if (isset($_POST['product_id']) && isset($_POST['qty'])) {
         //count cart items beloning to current ip
         $cartCount = count(countCartController($visitor_ip));
         $_SESSION['cartcount'] = $cartCount;
+        // refresh page
         header("location:javascript://history.go(-1)");
         exit();
         

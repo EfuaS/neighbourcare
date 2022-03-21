@@ -1,8 +1,7 @@
 <?php
 
 require("../settings/core.php");
-require("../controllers/checkout_controller.php");
-require(dirname(__FILE__)).'/../controllers/cart_controller.php';
+require(dirname(__FILE__)).'/../controllers/checkout_controller.php';
 
 
 // check if user is logged in
@@ -52,7 +51,8 @@ $curl = curl_init();
 
     //clear cart of current ip
     clearCartController ($visitor_ip);
-    $cartCount = count(countCartController($visitor_ip));
+    // $cartCount = count(countCartController($visitor_ip));
+    $cartCount = 0;
     $_SESSION['cartcount'] = $cartCount;
     header('location:../cart.php');
     exit();

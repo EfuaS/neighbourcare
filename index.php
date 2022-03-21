@@ -2,7 +2,6 @@
 require('settings/core.php');
 
 //include page header and navbar from includes file to reduce code redunduncy
-$_SESSION['cartcount'] = 0;
 
 require('includes/navbar.php');
 require('includes/header.php');
@@ -10,6 +9,7 @@ $visitor_ip = getRealIpAddr();
 
 require(dirname(__FILE__)).'/controllers/cart_controller.php';
 $cartCount = count(countCartController($visitor_ip));
+$_SESSION['cartcount'] = $cartCount;
 
 ?>
 
@@ -734,7 +734,7 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="images/perfumes/3.png" alt="#">
+									<img src="images/perfumes/lancome.jpg" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -752,7 +752,7 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="images/perfumes/2.png" alt="#">
+									<img src="images/perfumes/dior poison.jpg" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -770,7 +770,7 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="images/perfumes/8.png" alt="#">
+									<img src="images/perfumes/eros.jpg" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -797,14 +797,14 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
-									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
+									<img src="images/perfumes/victoria.png" >
+									<!-- <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a> -->
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
-									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$65</p>
+									<h5 class="title">Victoria's Secret Coconut Passion</h5>
+									<p class="price with-discount">GHS 40</p>
 								</div>
 							</div>
 						</div>
@@ -815,14 +815,14 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
-									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
+									<img src="images/perfumes/victoria2.jpg" alt="#">
+									<!-- <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a> -->
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
-									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$33</p>
+									<h5 class="title"><a href="#">Victoria's Secret Coconut Craze</a></h5>
+									<p class="price with-discount">GHS 33</p>
 								</div>
 							</div>
 						</div>
@@ -833,14 +833,14 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
-									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
+									<img src="images/perfumes/victoria3.jpg" alt="#">
+									<!-- <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a> -->
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
-									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$77</p>
+									<h5 class="title"><a href="#">Victoria's Secret Coconut Twist</a></h5>
+									<p class="price with-discount">GHS 45</p>
 								</div>
 							</div>
 						</div>
@@ -860,7 +860,7 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="images/bio.png" >
+									<img src="images/bio.jpg" >
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
@@ -877,7 +877,7 @@ $cartCount = count(countCartController($visitor_ip));
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="images/cream.png" alt="#">
+									<img src="images/palmers.png" alt="#">
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
